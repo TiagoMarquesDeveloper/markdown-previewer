@@ -17,6 +17,11 @@ class App extends React.Component {
 		markdown: event.target.value
 	  });
 	}
+	
+	componentDidMount() {
+	document.body.style.backgroundColor = "lightgreen";
+  }
+	
   render() {
     return (
 		<div className="container">
